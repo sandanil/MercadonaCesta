@@ -8,7 +8,7 @@
 </head>
 <body>
 
-		<h6>Está usted registrado como: <%= session.getAttribute("nombre") %> <%= session.getAttribute("apellido") %></h6>
+		<h6>EstÃ¡ usted registrado como: <%= session.getAttribute("usuario") %></h6>
 	</div>
 	<div class="col-md-1"></div>
 </div>
@@ -16,7 +16,7 @@
 <br><br>
 
 <div class="text-center">
-	EL PRODUCTO HA SIDO AÑADIDO A SU CESTA <br><br>
+	EL PRODUCTO HA SIDO AÃ‘ADIDO A SU CESTA <br><br>
 	<div id="pedidoterminado">
 		<form action="Productos" method="post">
 			<input name="productos" type="submit" value="VOLVER">
